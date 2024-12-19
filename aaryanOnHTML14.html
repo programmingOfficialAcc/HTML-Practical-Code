@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lab - 14 | Aaryan Shrestha</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                overflow-y: hidden;
+            }
+            .heading {
+                height: 150px;
+                background-color: orange;
+                color: white;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .navigation {
+                background-color: yellow;
+                padding: 10px;
+            }
+            .scrolling-text {
+                background-color: green;
+                color: white;
+                padding: 10px;
+            }
+            main {
+                display: flex;
+            }
+            .info-section {
+                background-color: grey;
+                padding: 10px;
+                width: 70%;
+            }
+            .info-section h2 {
+                color: black;
+                margin-bottom: 20px;
+            }
+            .info-container {
+                display: flex;
+            }
+            .image {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+
+                margin: 20px;
+            }
+
+            .info-text {
+                color: white;
+                margin: 20px 10px;
+            }
+
+            .info-members {
+                background-color: aquamarine;
+                text-align: center;
+                padding: 10px;
+                width: 30%;
+            }
+            .info-members h3 {
+                margin: 20px;
+                font-size: 24px;
+                padding: 0 20px;
+            }
+
+            .img-members {
+                object-position: top;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="heading">
+            <h1 class="main-title">Online Exam System</h1>
+        </header>
+        <nav class="navigation">
+            <a href="#">HOME</a> || <a href="#">ABOUT US</a> ||
+            <a href="#">Courses</a> || <a href="#">Exam Date</a> ||
+            <a href="#">Result</a> || <a href="#">Gallery</a> ||
+        </nav>
+        <div class="scrolling-text">
+            <marquee direction="left">
+                <em>Welcome to Online Exam System</em>
+            </marquee>
+        </div>
+        <main>
+            <section class="info-section">
+                <h2 style="margin-top: 20px">Welcome to Online Exam System</h2>
+                <hr style="border: 2px solid white" />
+                <div class="info-container">
+                    <img
+                        src="./images/girl.jpg"
+                        alt="Girl images"
+                        class="image"
+                    />
+                    <p class="info-text">
+                        Video provides a powerful way to help you prove your
+                        point. When you click Online Video, you can paste in the
+                        embed code for the video you want to add. You can also
+                        tupe a keyword to search online for the video that best
+                        fits your document. To make your document look
+                        professionally produced, Word provides header, footer,
+                        cover page and text box designs that complements each
+                        other. For example, you can add a matching cover page,
+                        header and sidebar. Click Insert and then choose the
+                        elements you want from the different guidelines.
+                        <br />
+                        Themes and styles also help keep your document
+                        coordinated. When you click Design and choose a new
+                        Theme, the pictures, charts and SmartArt graphics change
+                        yo match your new theme. When you apply styles, your
+                        headings change to match the new theme. Save time in
+                        Word with new buttons that show up where you need them.
+                        To change the way a picture fits in your document, click
+                        it and a button for layout options appears next to it.
+                        When you work on a table, click where you want to add a
+                        new row or a column and then click the plus sign.
+                    </p>
+                </div>
+            </section>
+            <section class="info-members">
+                <aside>
+                    <h3>Our Members</h3>
+                    <hr style="border: 2px solid red; margin-bottom: 10px" />
+
+                    <h4>Director</h4>
+
+                    <img
+                        src="./images/girl.jpg"
+                        alt="Director"
+                        class="image img-members"
+                    />
+
+                    <img
+                        src="./images/girl.jpg"
+                        alt="Director"
+                        class="image img-members"
+                    />
+                </aside>
+            </section>
+        </main>
+    </body>
+</html>
